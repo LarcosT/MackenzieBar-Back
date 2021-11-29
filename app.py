@@ -1,5 +1,3 @@
-heroku buildpacks:set heroku/python
-
 import time
 import sys
 import redis
