@@ -27,8 +27,8 @@ except:
 load_dotenv()
 
 scope = "user-modify-playback-state user-read-playback-state user-read-private user-read-recently-played"
-id = os.environ.get('SPOTIPY_CLIENT_ID')    
-secret = os.environ.get('SPOTIPY_CLIENT_SECRET')
+id = '72a94efae42c424b82088ee315cdeff7'    
+secret = '2557703855184878a7305e2bdccac939'
 redirect_ui = os.environ.get('SPOTIPY_REDIRECT_URI')
 api_base = os.environ.get('API_BASE')
 
